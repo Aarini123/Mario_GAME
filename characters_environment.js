@@ -121,7 +121,7 @@ function start(){
 
 // change game status if any key is pressed
 function changeGameStatud(character){
-  if( game_status=="START" && nosex!="" && gameConfig.status==="start") {
+  if( game_status=="START" && noseX!="" && gameConfig.status==="start") {
     world_start.play();
     initializeCharacterStatus(mario);
     gameConfig.status= "play";
